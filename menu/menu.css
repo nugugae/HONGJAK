@@ -1,0 +1,122 @@
+/*body 초기화*/
+/*font-family:"Roboto", serif;*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif; 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;  
+  }
+img{border-radius: 200px; display: block; margin: auto; }
+#Menu_logo{
+  display:inline-block;vertical-align:top;
+  font-size: 200%;
+  font: verdana, sans-serif;
+  color: #096622fb;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px; 
+  margin-right: 0px;
+
+}
+
+#Menu_letter{
+  font-size: 200%;
+  font: verdana, sans-serif;
+  color: #096622fb;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px; 
+  margin-left: 0px;
+  
+  
+}
+#Menu_full{
+  width: 1470px;
+  height :78px; 
+  margin: 15px auto; 
+  text-align: center; 
+  background: #ffffff; 
+  float: center; 
+  padding: 20px; 
+  margin-bottom: 15px;
+}
+
+
+
+h1 {
+  margin: 2em 0 1.5em 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(90deg, #053715, #007a1a, #4f8f0c, #8fbf00, #a8eb12);
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 14px 36px;
+  border-right: 1px solid rgba(0,0,0,0.15);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#main-menu > li:nth-child(1) > a {
+  border-left: 1px solid rgba(0,0,0,0.15);
+}
+/*background:#182952;*/
+#sub-menu {
+  position: absolute;
+  background: #084e22;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+}
+
+#sub-menu > li {
+  padding: 16px 28px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+}
+
+section {
+  column-width: 15em;
+  background: #dadadf;
+  padding: 2em 12em;
+}
