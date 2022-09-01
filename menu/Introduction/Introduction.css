@@ -151,11 +151,12 @@ section {
     width: 10%;
     float: left;
     border-radius: 7px;
+   
 }
 #sidemenu{
     font-size: 14px;
     color: #084e22;
-    height : 100px;
+    height : 120px;
  
 }
 #contents{
