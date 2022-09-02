@@ -148,7 +148,7 @@ section {
     font-size: 70%;
     margin-top: 15px; 
     margin-left: 40px;
-    width: 13%;
+    width: 11%;
     float: left;
     border-radius: 7px;
 }
@@ -163,7 +163,7 @@ section {
     vertical-align:top;
     font: verdana, sans-serif;
     margin: 0px;
-    padding: 3em 1em; 
+    padding: 3em 3em; 
     margin-top: 30px;
     margin-bottom: 15px; 
     margin-left: 30px;
@@ -178,6 +178,7 @@ section {
     background-size: 50%; 
     background-position-x: center;
     text-align: left;
+    
 }
 #title{
   text-align: center;
