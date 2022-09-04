@@ -142,7 +142,7 @@ text-decoration: underline;
 #sidemenu{
   font-size: 1rem;
   color: #084e22;
-  height : 9rem;
+  height : 11rem;
   column-width: 10em;
 }
 #contents{
@@ -156,7 +156,7 @@ text-decoration: underline;
   margin-left: 3rem;
   margin-right: 4rem;
   width: 50rem;
-  float: right;
+  float: left;
   column-width: 20rem;
   border-radius: 30px;
   background-image: linear-gradient(180deg, #ffffff,#ffffffda,#ffffffea,#ffffff),url('../../asset/logoGreen.jpg');
