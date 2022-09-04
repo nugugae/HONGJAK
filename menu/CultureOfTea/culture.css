@@ -224,4 +224,8 @@ section {
     text-align: center;
     align-items: center;
    }
+   #update{
+    display: inline-block;
+    margin-left: 300px;
+  }
  

@@ -225,4 +225,9 @@ text-align: center;
   text-align: right;
   align-items: right;
  }
+ #update{
+  display: inline-block;
+  margin-left: 300px;
+}
+
 

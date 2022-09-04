@@ -124,4 +124,9 @@ section {
   width: 100% ;
 
 }
+#update{
+  display: inline-block;
+  margin-left: 300px;
+}
+
 
