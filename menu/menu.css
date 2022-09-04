@@ -105,7 +105,9 @@ section {
   font: verdana, sans-serif;
   margin: 0px;
   text-align: center;
-  column-width: 15em;
+  column-width: 17em;
+  height: 32em;
+  
 }
 
 #downdeco{
