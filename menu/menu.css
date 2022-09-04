@@ -12,8 +12,9 @@ body {
     background-image: url('../asset/logoGreen.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 30%; 
-    background-position: center;
+    background-size: 40%; 
+    background-position-x: center;
+    background-position-y: 450px;
   }
 img{display: block; margin: auto; }
 #Menu_logo{
@@ -98,7 +99,7 @@ ul, li {
 }
 
 section {
-  background: linear-gradient(180deg, #dadadf,#ffffffda,#ffffff,#ffffff);
+  background: linear-gradient(180deg, #dadadf,#ffffffda,#ffffffe1,#ffffff);
   padding: 2em 12em;
   display:inline-block;
   vertical-align:top;
@@ -129,4 +130,49 @@ section {
   margin-left: 300px;
 }
 
+#div1 {
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  height: 0px;
+  -webkit-transform: scale(1);
+}
+
+.move_scale {
+  -webkit-animation-name: animation_scale;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: both
+}
+
+.move_to_right {
+  -webkit-animation-name: animation_move;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: both
+}
+
+@-webkit-keyframes animation_scale {
+  0% {
+      -webkit-transform: translateX(-1000px) translateY(0px) scale(1);
+      opacity: 0;
+  }
+
+
+  100% {
+      -webkit-transform: translateX(0px) translateY(0px) scale(1);
+  }
+}
+
+@-webkit-keyframes animation_move {
+  0% {
+      -webkit-transform: translateX(-1000px) translateY(0px) scale(1);
+  }
+
+  100% {
+      -webkit-transform: translateX(1000px) translateY(0px) scale(1);
+  }
+}
 
