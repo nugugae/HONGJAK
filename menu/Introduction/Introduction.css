@@ -111,6 +111,7 @@ section {
   margin: 0px;
   padding: 10px; 
   text-align: center;
+  height: max-content;
 
 }
   
@@ -175,7 +176,7 @@ section {
   background-image: linear-gradient(180deg, #ffffff,#ffffffda,#ffffffea,#ffffff),url('../../asset/logoGreen.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%; 
+  background-size: 50%; 
   background-position-x: center;
   text-align: left;
 }
@@ -221,7 +222,7 @@ text-align: center;
   margin:10px;
   margin-left: 200px;
   padding: 10px;
-  text-align: center;
-  align-items: center;
+  text-align: right;
+  align-items: right;
  }
 
