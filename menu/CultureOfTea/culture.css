@@ -148,14 +148,14 @@ section {
     font-size: 70%;
     margin-top: 15px; 
     margin-left: 40px;
-    width: 10%;
+    width: 160px;
     float: left;
     border-radius: 7px;
 }
 #sidemenu{
     font-size: 14px;
     color: #084e22;
-    height : 100px;
+    height : 80px;
  
 }
 #contents{
@@ -211,6 +211,13 @@ section {
     align-items: center;
    }
    #logoblack{
+    margin:10px;
+    margin-left: 200px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+   }
+   #brandlogo{
     margin:10px;
     margin-left: 200px;
     padding: 10px;
