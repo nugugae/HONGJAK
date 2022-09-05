@@ -133,11 +133,12 @@ text-decoration: underline;
   background-color: #8fb499fb;
   margin: 0px;
   padding: 10px; 
-  margin-top: 15px; 
-  margin-left: 3em;
+  margin-top: 2%; 
+  margin-left: 2%;
   column-width: 10em;
   float: left;
   border-radius: 7px;
+  width: 10%;
 }
 #sidemenu{
   font-size: 1rem;
