@@ -36,8 +36,9 @@ h1 {
 
 nav {
   width: 100%;
-  display: flex;
+  display: inline-block;
   justify-content: center;
+  text-align: center;
   position: relative;
   border: #084e22;
   background: linear-gradient(90deg, #053715, #066d1d, #4d8b0a, #85b101, #9fdf14);
@@ -51,7 +52,7 @@ ul, li {
 }
 
 #main-menu > li {
-  float: left;
+  display: inline-block;
   position: relative;
 }
 
